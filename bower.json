@@ -1,0 +1,23 @@
+{
+  "name": "dependencies",
+  "version": "0.0.1",
+  "homepage": "",
+  "authors": [],
+  "description": "",
+  "keywords": [],
+  "license": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.1.1",
+    "fontawesome": "4.1.0",
+    "bootstrap": "~3.2.0",
+    "angular": "~1.2.19"
+  }
+}
