@@ -1,12 +1,33 @@
-# CoffeeScript
+# Frontend
 
-JavaScript sucks.
+A front-end setup Inspired by [Dan Sacket](https://github.com/dansackett).
 
-    # Global Node Installation
+## A global Node Installation
+
     $ sudo add-apt-repository ppa:chris-lea/node.js
     $ sudo apt-get update
-    $ sudo apt-get install nodejs coffeescript
+    $ sudo apt-get install nodejs 
 
-Then $ coffee
+## Install Bower and Gulp 
 
-    coffee --join site.js --watch --compile --output coffee/ js/
+    $ sudo apt-get install -g bower gulp
+
+## Install Bower Packages
+
+This refers to the `bower.json` and are automatically placed in `public/third-party` defined in `.bowerrc`
+
+    $ bower install
+
+## Install Gulp Packages
+
+This refers to the `package.json` file.
+
+    $ npm install
+
+# Compile Coffee and SASS
+
+    $ gulp 
+
+# Compile Coffee and SASS on Save
+
+    $ gulp watch
