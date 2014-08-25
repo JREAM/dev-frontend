@@ -27,6 +27,7 @@ gulp.task('coffee', function () {
 /** SASS */
 gulp.task('sass', function() {
     return gulp.src(dir.src_sass)
+        .pipe(plumber())
         .pipe(sass())
         .pipe(minify())
         .pipe(gulp.dest(dir.dest_css))
