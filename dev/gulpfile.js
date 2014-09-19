@@ -11,8 +11,8 @@ var gulp    = require('gulp')
 /** Dirs */
 var dir = {
     source: {
-        sass:   "dev/sass/*.scss",
-        coffee: "dev/coffee/*.coffee",
+        sass:   "sass/*.scss",
+        coffee: "coffee/*.coffee",
         js_third_party: "../public/third-party/*.js",
         css_third_party: "../public/third-party/*.css",
     },
